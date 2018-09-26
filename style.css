@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+}
+
+.quote-box {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+  border: 1px solid black;
+  padding: 15px;
+  box-shadow: 4px 4px 4px;
+}
+
+.quote-text {
+  text-align: center;
+  font-size: 24px;
+  animation-name: animated;
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+
+
+}
+
+.quote-author {
+  text-align: right;
+  margin-top: 40px;
+
+  animation-name: animated;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+a {
+  text-align: right;
+}
+
+
+
+.btn {
+  min-width: 100px;
+  min-height: 50px;
+  padding: 15px;
+  border-radius: 8px;
+  max-height: auto;
+  background-color: green;
+  color: white;
+}
+
+.btn:hover {
+  background-color: white;
+  color: green;
+}
+
+@keyframes animated {
+  10% {
+    opacity: 1;
+  }
+
+  20% {
+    opacity: 0;
+  }
+}
